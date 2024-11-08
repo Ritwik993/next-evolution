@@ -1,11 +1,13 @@
 import Image from "next/image";
 
+
 const Home=()=>{
   return(
-    <div className="relative  w-[100vw] z-40 h-[100vh]">
+    <div className="relative  w-[100vw]  h-[100vh] overflow-x-hidden">
       <Image src="/1.svg" alt="" width={980} height={720} className="absolute lg:left-[300px]  z-30 "/>
-      <Image src="/logo.svg" alt="" width={32} height={32} className="pt-[20px] pl-[50px]"/>
-      <Image src="/a1.png" alt="" width={1280} height={710} className="absolute top-0 left-0 lg:h-[1000px] md:h-[1400px] right-0 w-[100vw] z-20 bg-contain"/>
+      <Image src="/logo.svg" alt="" width={32} height={32} className="pt-[20px] ml-[50px] relative  "/>
+      
+      <Image src="/a1.png" alt="" width={1280} height={710} className="absolute top-0 left-0 lg:h-[1000px] md:h-[1400px] right-0 w-[100vw] z-20 "/>
       <div className="flex flex-col justify-center items-center z-50 mt-[100px]">
         <div className="bg-gradient-to-r from-[#19212C] to-[#26384C] rounded-[30px] p-[1px] ">
           <div className="bg-[#060D15] px-[12px] py-[5px] rounded-[30px] z-50">
