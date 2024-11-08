@@ -19,7 +19,7 @@ const Home=()=>{
         <p className="text-[16px] text-[#B6B6B8] font-light mt-[40px] z-50 text-center">Stay ahead of the curb in data privacy and storage by pre-ordering AirVault today!</p>
 
 
-        <div className="bg-[#FF7733] absolute top-[500px] bg-opacity-30 w-[700px] h-[600px] rounded-full mt-[60px] blur-3xl backdrop-blur-3xl opacity-100 z-10"></div>
+        <div className="bg-[#FF7733] absolute top-[500px] md:top-[600px] bg-opacity-30 w-[700px] h-[600px] rounded-full mt-[60px] blur-3xl backdrop-blur-3xl opacity-100 z-10"></div>
 
 
 
@@ -56,13 +56,13 @@ const Home=()=>{
 
       </div>
       {/* <Image src="/blur2.svg" width={1280} height={550} className="absolute bottom-0  top-[700px] md:hidden lg:block sm:hidden w-full z-40 " alt=""/> */}
-      <Image src="/blur2.svg" width={1280} height={550} className="absolute bottom-0 top-[700px] md:hidden lg:block sm:hidden w-full z-40 " alt=""/>
-      <Image src="/i2.png" width={1662} height={978} className="absolute bottom-0 top-[700px]  lg:hidden md:block  w-full z-40 " alt=""/>
-      {/* <Image src="/i3.png" width={1662} height={915} className="absolute bottom-0 top-[700px]  lg:hidden md:hidden block  w-[1662px] h-[915px] z-40 " alt=""/> */}
+      <Image src="/blur2.svg" width={1280} height={550} className="absolute bottom-0 top-[700px] md:hidden lg:block hidden w-full z-40 " alt=""/>
+      <Image src="/i2.png" width={1662} height={978} className="absolute bottom-0 md:top-[800px] top-[700px]  lg:hidden md:block  w-full  z-40 " alt=""/>
+      {/* <Image src="/i3.png" width={1662} height={915} className="absolute bottom-0 top-[700px]  lg:hidden md:hidden block  h-[900px] w-full ml-[100px] mr-[100px] left-0 right-0 z-40 " alt=""/> */}
 
 
 
-      <div className="w-full absolute h-full bottom-0 top-[400px] z-50 ">
+      <div className="w-full absolute h-full bottom-0 top-[400px] md:top-[500px] z-50 ">
       <p className="text-transparent font-medium md:text-[48px] text-[35px] bg-clip-text mt-[300px] pt-[100px] bg-gradient-to-r from-[#94959C] via-[#FFFFFF] to-[#93949B] text-center ">Who is AirVault for?</p>
       <div className="cards flex justify-around pl-[100px] md:flex-col lg:flex-row gap-y-6 lg:gap-x-8 lg:gap-y-0 md:justify-center flex-col items-center ">
             <div className="w-[240px]">
