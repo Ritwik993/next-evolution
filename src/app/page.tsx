@@ -61,7 +61,7 @@ const Home=()=>{
 
       <div className="w-full absolute h-full bottom-0 top-[400px] z-50 ">
       <p className="text-transparent font-medium md:text-[48px] text-[35px] bg-clip-text mt-[300px] pt-[100px] bg-gradient-to-r from-[#94959C] via-[#FFFFFF] to-[#93949B] text-center ">Who is AirVault for?</p>
-      <div className="cards flex justify-around pl-[100px] md:flex-col lg:flex-row gap-y-6 lg:gap-y-0 md:justify-center flex-col items-center ">
+      <div className="cards flex justify-around pl-[100px] md:flex-col lg:flex-row gap-y-6 lg:gap-x-8 lg:gap-y-0 md:justify-center flex-col items-center ">
             <div className="w-[240px]">
               <Image src="/m1.svg" alt="" width={48} height={48} />
               <p className="text-[#F0F0F0] text-[24px]">Indviduals</p>
