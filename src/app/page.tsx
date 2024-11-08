@@ -5,7 +5,7 @@ const Home=()=>{
   return(
     <div className="relative  w-[100vw]  h-[100vh] overflow-x-hidden">
       <Image src="/1.svg" alt="" width={980} height={720} className="absolute lg:left-[300px]  z-30 "/>
-      <Image src="/logo.svg" alt="" width={32} height={32} className="pt-[20px] ml-[50px] relative  "/>
+      <Image src="/logo.svg" alt="" width={32} height={32} className="pt-[20px] lg:ml-[50px] md:ml-[30px] ml-[20px] relative  "/>
       
       <Image src="/a1.png" alt="" width={1280} height={710} className="absolute top-0 left-0 lg:h-[1000px] md:h-[1400px] right-0 w-[100vw] z-20 "/>
       <div className="flex flex-col justify-center items-center z-50 mt-[100px]">
@@ -55,6 +55,7 @@ const Home=()=>{
 
 
       </div>
+      {/* <Image src="/blur2.svg" width={1280} height={550} className="absolute bottom-0  top-[700px] md:hidden lg:block sm:hidden w-full z-40 " alt=""/> */}
       <Image src="/blur2.svg" width={1280} height={550} className="absolute bottom-0 top-[700px] md:hidden lg:block sm:hidden w-full z-40 " alt=""/>
       <Image src="/i2.png" width={1662} height={978} className="absolute bottom-0 top-[700px]  lg:hidden md:block  w-full z-40 " alt=""/>
       {/* <Image src="/i3.png" width={1662} height={915} className="absolute bottom-0 top-[700px]  lg:hidden md:hidden block  w-[1662px] h-[915px] z-40 " alt=""/> */}
@@ -83,7 +84,7 @@ const Home=()=>{
             </div>
       </div>
       <div className="w-full flex items-center justify-center">
-          <button className="bg-gradient-to-r from-[#FF6A33] to-[#FF4C0A] py-[12px] px-[24px] rounded-[8px] text-white my-[40px]">Pre-order now</button>
+          <button className="bg-gradient-to-r from-[#FF6A33] to-[#FF4C0A] py-[12px] px-[24px] rounded-[8px] text-white my-[40px] w-11/12 md:w-auto">Pre-order now</button>
           </div> 
       </div>
     </div>
