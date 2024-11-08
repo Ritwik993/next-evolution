@@ -1,101 +1,86 @@
 import Image from "next/image";
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+const Home=()=>{
+  return(
+    <div className="relative  w-full z-40 h-[100vh]">
+      <Image src="/1.svg" alt="" width={980} height={720} className="absolute left-[300px]  z-30 "/>
+      <Image src="/logo.svg" alt="" width={32} height={32} className="pt-[20px] pl-[50px]"/>
+      <Image src="/a1.png" alt="" width={1280} height={710} className="absolute top-0 left-0 h-[800px] right-0 w-full z-20 bg-contain"/>
+      <div className="flex flex-col justify-center items-center z-50">
+        <div className="bg-gradient-to-r from-[#19212C] to-[#26384C] rounded-[30px] p-[1px]">
+          <div className="bg-[#060D15] px-[12px] py-[5px] rounded-[30px]">
+        <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#94959C] via-[#FFFFFF] to-[#93949B]">Build for video creators</p>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <button className="bg-gradient-to-r from-[#FF6A33] to-[#FF4C0A] py-[12px] px-[24px] rounded-[8px] text-white my-[40px] cursor-pointer z-50">Pre-order now</button>
+        <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#94959C] via-[#FFFFFF] to-[#93949B] font-medium text-[72px] text-center">The next-evolution in data<br/> storage is here</p>
+        <p className="text-[16px] text-[#B6B6B8] font-light mt-[40px]">Stay ahead of the curb in data privacy and storage by pre-ordering AirVault today!</p>
+        <div className="bg-[#FF7733] absolute top-[400px] bg-opacity-30 w-[700px] h-[600px] rounded-full mt-[60px] blur-3xl backdrop-blur-3xl opacity-100 z-10"></div>
+
+
+
+
+        {/* <div className="w-full absolute h-full bottom-0">
+          <div className="img   w-[100vw]  bg-[#070E18]">
+          <p className="text-transparent font-medium text-[48px] bg-clip-text mt-[300px] pt-[100px] bg-gradient-to-r from-[#94959C] via-[#FFFFFF] to-[#93949B] text-center ">Who is AirVault for?</p>
+          <div className="cards flex justify-around pl-[100px] items-center">
+            <div className="w-[240px]">
+              <Image src="/m1.svg" alt="" width={48} height={48} />
+              <p className="text-[#F0F0F0] text-[24px]">Indviduals</p>
+              <p className="text-[16px] text-[#B6B6B8]">Private storage separate from the internet</p>
+            </div>
+
+            <div className="w-[240px]">
+              <Image src="/m2.svg" alt="" width={48} height={48} />
+              <p className="text-[#F0F0F0] text-[24px]">Creative teams</p>
+              <p className="text-[16px] text-[#B6B6B8]">High speed data sharing for collaborative work</p>
+            </div>
+
+            <div className="w-[240px]">
+              <Image src="/m3.svg" alt="" width={48} height={48} />
+              <p className="text-[#F0F0F0] text-[24px]">Buisness</p>
+              <p className="text-[16px] text-[#B6B6B8]">Centralised storage for better organisation</p>
+            </div>
+          </div>
+          <div className="w-full flex items-center justify-center">
+          <button className="bg-gradient-to-r from-[#FF6A33] to-[#FF4C0A] py-[12px] px-[24px] rounded-[8px] text-white my-[40px]">Pre-order now</button>
+          </div> 
+          </div>
+        </div> */}
+
+
+
+      </div>
+      <Image src="/blur2.svg" width={1280} height={550} className="absolute bottom-0 top-[600px] w-full z-20" alt=""/>
+
+
+      <div className="w-full absolute h-full bottom-0 top-[300px] z-50">
+      <p className="text-transparent font-medium text-[48px] bg-clip-text mt-[300px] pt-[100px] bg-gradient-to-r from-[#94959C] via-[#FFFFFF] to-[#93949B] text-center ">Who is AirVault for?</p>
+      <div className="cards flex justify-around pl-[100px] items-center">
+            <div className="w-[240px]">
+              <Image src="/m1.svg" alt="" width={48} height={48} />
+              <p className="text-[#F0F0F0] text-[24px]">Indviduals</p>
+              <p className="text-[16px] text-[#B6B6B8]">Private storage separate from the internet</p>
+            </div>
+
+            <div className="w-[240px]">
+              <Image src="/m2.svg" alt="" width={48} height={48} />
+              <p className="text-[#F0F0F0] text-[24px]">Creative teams</p>
+              <p className="text-[16px] text-[#B6B6B8]">High speed data sharing for collaborative work</p>
+            </div>
+
+            <div className="w-[240px]">
+              <Image src="/m3.svg" alt="" width={48} height={48} />
+              <p className="text-[#F0F0F0] text-[24px]">Buisness</p>
+              <p className="text-[16px] text-[#B6B6B8]">Centralised storage for better organisation</p>
+            </div>
+      </div>
+      <div className="w-full flex items-center justify-center">
+          <button className="bg-gradient-to-r from-[#FF6A33] to-[#FF4C0A] py-[12px] px-[24px] rounded-[8px] text-white my-[40px]">Pre-order now</button>
+          </div> 
+      </div>
     </div>
-  );
+  )
 }
+
+export default Home;
