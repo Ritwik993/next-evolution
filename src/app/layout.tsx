@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} w-[100vw] bg-[#070E18] overflow-x-hidden`}>
+      <body className={`${poppins.className} w-[100vw]   flex flex-col items-center justify-center overflow-x-hidden`}>
              <main>         
             {children}
             </main>
