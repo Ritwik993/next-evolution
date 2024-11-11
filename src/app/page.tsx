@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const folder=()=>{
     return(
-        <div className=" parentContainer relative bg-[#070E18] bg-[url('/a1.png')] w-full  flex flex-col items-center justify-center z-10 overflow-x-hidden">
+        <div className=" max-w-full parentContainer relative bg-[#070E18] bg-[url('/a1.png')] w-full  flex flex-col items-center justify-center z-10 overflow-x-hidden">
             <div className="w-full flex-1 relative pb-[100px] overflow-x-hidden">
                 <div className=" absolute  top-0 z-40 w-[100vw] h-full flex flex-col items-center justify-center">
                      <Image src="/1.svg" alt="" width={980} height={720} className=" h-full top-0 object-cover "/>
@@ -30,8 +30,8 @@ const folder=()=>{
                 <Image src="/i2.png" width={1662} height={978} className="absolute  top:0 lg:hidden block   w-full  h-full z-20  right-0 left-0 object-cover" alt=""/>
                 <div className="relative w-full">
                
-              <p className="text-transparent font-medium md:text-[48px] text-[35px] bg-clip-text  bg-gradient-to-r from-[#94959C] via-[#FFFFFF] to-[#93949B] md:text-center text-left md:pl-[100px] pl-[40px] mb-[20px] z-50  mt-[200px] ">Who is AirVault for?</p>
-             <div className=" cards flex justify-around md:pl-[100px] pl-[40px] md:flex-col lg:flex-row md:gap-y-6 gap-y-[60px] lg:gap-x-[100px] lg:gap-y-0 md:justify-center flex-col md:items-center z-50 mb-[100px]">
+              <p className="text-transparent font-medium md:text-[48px] text-[35px] bg-clip-text  bg-gradient-to-r from-[#94959C] via-[#FFFFFF] to-[#93949B] md:text-center text-left md:pl-[100px] pl-[20px] mb-[20px] z-50  mt-[200px] ">Who is AirVault for?</p>
+             <div className=" cards flex justify-around md:pl-[100px] pl-[20px] md:flex-col lg:flex-row md:gap-y-6 gap-y-[60px] lg:gap-x-[100px] lg:gap-y-0 md:justify-center flex-col md:items-center z-50 mb-[100px]">
             <div className="w-[240px]">
               <Image src="/m1.svg" alt="" width={48} height={48} />
               <p className="text-[#F0F0F0] text-[24px]">Indviduals</p>
