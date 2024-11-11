@@ -24,7 +24,7 @@ const folder=()=>{
 
 
             <div className="bottomContainer  flex flex-col items-center justify-center w-full h-full flex-1 relative  z-20  ">
-                <div className="bg-[#FF7733] absolute  bg-opacity-35 w-[800px] h-[600px]  rounded-full lg:mb-[400px] md:mb-[600px]  mb-[500px] blur-3xl backdrop-blur-3xl opacity-50 z-[-200] "></div>
+                <div className="bg-[#FF7733] absolute  bg-opacity-35 w-[800px] h-[600px]  rounded-full lg:mb-[400px] md:mb-[600px]  mb-[700px] blur-3xl backdrop-blur-3xl opacity-50 z-[-200] "></div>
                 {/* <Image src="/blur2.svg" width={1280} height={550} className="absolute w-full lg:block hidden bottom-0 right-0  left-0  z-20 " alt=""/> */}
                 <Image src="/blur100.svg" width={1280} height={550} className="absolute w-full lg:block hidden h-full right-0  left-0  object-cover overflow-hidden" alt=""/>
                 <Image src="/i2.png" width={1662} height={978} className="absolute  top:0 lg:hidden block   w-full  h-full z-20  right-0 left-0 object-cover" alt=""/>
