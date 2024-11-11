@@ -5,7 +5,7 @@ const Home=()=>{
   return(
     <div className="relative  w-[100vw]  bg-[#070E18]   bg-[url('/a1.png')]   z-[-400]">
       <div className=" absolute z-40 w-[100vw] flex flex-col items-center justify-center">
-          <Image src="/1.svg" alt="" width={980} height={720} className=""/>
+          <Image src="/1.svg" alt="" width={980} height={720} className="h-full"/>
       </div>
       <Image src="/logo.svg" alt="" width={32} height={32} className="pt-[20px] lg:ml-[50px] w-[64px] h-[64px] md:ml-[30px] ml-[20px] relative  "/>
       
