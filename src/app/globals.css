@@ -12,3 +12,54 @@
 body, html {
   overflow-x: hidden;
 }
+
+
+.containerbox {
+  width: 1536px;
+  margin: auto;
+  min-height: 100vh;
+  background-color: #070E18;
+  background-image: url('/a1.png');
+}
+
+@media (max-width: 1536px) {
+  .containerbox {
+    width: 1366px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .containerbox {
+    width: 1280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .containerbox {
+    width: 1024px;
+    
+  }
+}
+
+@media (max-width: 1024px) {
+  .containerbox {
+    width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .containerbox {
+    width: 768px;
+  }
+}
+
+@media (max-width: 640px) {
+  .containerbox {
+    width: 475px;
+  }
+}
+@media (max-width: 475px) {
+  .containerbox {
+    width: 380px;
+  }
+}

@@ -20,9 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} w-[100vw] overflow-x-hidden`}>
-             <main>         
+      <body className={`${poppins.className} w-full bg-[#070E18]   bg-[url('/a1.png')]  overflow-x-hidden`}>
+             <main>    
+              <div className="containerbox">
             {children}
+              </div>     
             </main>
       </body>
     </html>
