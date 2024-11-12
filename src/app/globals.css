@@ -43,23 +43,23 @@ body, html {
 
 @media (max-width: 1024px) {
   .containerbox {
-    width: 768px;
+    width: 100vw;
   }
 }
 
 @media (max-width: 768px) {
   .containerbox {
-    width: 768px;
+    width: 100vw;
   }
 }
 
 @media (max-width: 640px) {
   .containerbox {
-    width: 475px;
+    width:100vw;
   }
 }
 @media (max-width: 475px) {
   .containerbox {
-    width: 380px;
+    width: 100vw;
   }
 }

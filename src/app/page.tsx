@@ -7,7 +7,7 @@ const folder=()=>{
                 <div className=" absolute  top-0 z-40 w-full h-full flex flex-col items-center justify-center">
                      <Image src="/1.svg" alt="" width={980} height={720} className=" h-full top-0 object-cover "/>
                 </div>
-             <Image src="/logo.svg" alt="" width={32} height={32} className="pt-[20px]  w-[64px] h-[64px] ml-[10px]  "/>
+             <Image src="/logo.svg" alt="" width={32} height={32} className="pt-[20px]  w-[48px] h-[48px] ml-[10px]  "/>
              <div className="flex flex-col justify-center items-center w-full z-50 mt-[100px]">
                 <div className="bg-gradient-to-r from-[#19212C] to-[#26384C] rounded-[30px] p-[1px] ">
                     <div className="bg-[#060D15] px-[12px] py-[5px] rounded-[30px] z-50">
@@ -26,27 +26,29 @@ const folder=()=>{
             <div className="bottomContainer  flex flex-col items-center justify-center w-full h-full flex-1 relative  z-20  ">
                 <div className="bg-[#FF7733] absolute  bg-opacity-35 w-[800px] h-[600px]  rounded-full lg:mb-[400px] md:mb-[600px]  mb-[700px] blur-3xl backdrop-blur-3xl opacity-50 z-[-200] "></div>
                 {/* <Image src="/blur2.svg" width={1280} height={550} className="absolute w-full lg:block hidden bottom-0 right-0  left-0  z-20 " alt=""/> */}
-                <Image src="/blur100.svg" width={1280} height={550} className="absolute w-[100vw] lg:block hidden h-full right-0  left-0  object-cover overflow-hidden" alt=""/>
-                <Image src="/i2.png" width={1662} height={978} className="absolute  top:0 lg:hidden block   w-[100vw]  h-full z-20  right-0 left-0 object-cover" alt=""/>
+                
+                <Image src="/p1.png" width={1280} height={550} className="absolute w-[100vw] lg:block hidden h-full right-0  left-0  object-cover overflow-hidden " alt=""/>
+                <Image src="/i2.png" width={1662} height={978} className="absolute  top:0 lg:hidden block   w-[100vw]  h-full z-20  right-0 left-0 object-cover " alt=""/>
                 <div className="relative w-full">
-               
-              <p className="text-transparent font-medium md:text-[48px] text-[35px] bg-clip-text  bg-gradient-to-r from-[#94959C] via-[#FFFFFF] to-[#93949B] md:text-center text-left md:pl-[100px] pl-[20px] mb-[20px] z-50  mt-[200px] ">Who is AirVault for?</p>
+              <div className="flex flex-col items-center justify-center">
+              <p className="text-transparent font-medium md:text-[48px] text-[35px] bg-clip-text  bg-gradient-to-r from-[#94959C] via-[#FFFFFF] to-[#93949B] md:text-center text-left md:pl-[100px] pl-[20px] mb-[20px] z-50  mt-[100px] ">Who is AirVault for?</p>
+               </div> 
              <div className=" cards flex justify-around md:pl-[100px] pl-[20px] md:flex-col lg:flex-row md:gap-y-6 gap-y-[60px] lg:gap-x-[100px] lg:gap-y-0 md:justify-center flex-col md:items-center z-50 mb-[100px]">
             <div className="w-[240px]">
-              <Image src="/m1.svg" alt="" width={48} height={48} />
-              <p className="text-[#F0F0F0] text-[24px]">Indviduals</p>
+              <Image src="/m1.svg" alt="" width={48} height={48} className="mb-[20px]"/>
+              <p className="text-[#F0F0F0] text-[24px] mb-[10px]">Indviduals</p>
               <p className="text-[16px] text-[#B6B6B8]">Private storage separate from the internet</p>
             </div>
 
             <div className="w-[240px]">
-              <Image src="/m2.svg" alt="" width={48} height={48} />
-              <p className="text-[#F0F0F0] text-[24px]">Creative teams</p>
+              <Image src="/m2.svg" alt="" width={48} height={48} className="mb-[20px]" />
+              <p className="text-[#F0F0F0] text-[24px] mb-[10px]">Creative teams</p>
               <p className="text-[16px] text-[#B6B6B8]">High speed data sharing for collaborative work</p>
             </div>
 
             <div className="w-[240px]">
-              <Image src="/m3.svg" alt="" width={48} height={48} />
-              <p className="text-[#F0F0F0] text-[24px]">Businesses</p>
+              <Image src="/m3.svg" alt="" width={48} height={48} className="mb-[20px]" />
+              <p className="text-[#F0F0F0] text-[24px] mb-[10px]">Businesses</p>
               <p className="text-[16px] text-[#B6B6B8]">Centralised storage for better organisation</p>
             </div>
            
